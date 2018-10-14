@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13159" started-at="2018-10-14T14:08:00Z" finished-at="2018-10-14T14:08:13Z">
+    <groups>
+      <group name="TC-2">
+        <method signature="homeTest.recipeDetailsTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipeDetailsTest" class="Tests.homeTest"/>
+      </group> <!-- TC-2 -->
+      <group name="TC-1">
+        <method signature="homeTest.recipePreviewTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipePreviewTest" class="Tests.homeTest"/>
+      </group> <!-- TC-1 -->
+      <group name="Recipe Assistant">
+        <method signature="homeTest.recipeDetailsTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipeDetailsTest" class="Tests.homeTest"/>
+        <method signature="homeTest.recipePreviewTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipePreviewTest" class="Tests.homeTest"/>
+      </group> <!-- Recipe Assistant -->
+      <group name="Home Page">
+        <method signature="homeTest.recipeDetailsTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipeDetailsTest" class="Tests.homeTest"/>
+        <method signature="homeTest.recipePreviewTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipePreviewTest" class="Tests.homeTest"/>
+      </group> <!-- Home Page -->
+      <group name="priority-major">
+        <method signature="homeTest.recipeDetailsTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipeDetailsTest" class="Tests.homeTest"/>
+      </group> <!-- priority-major -->
+      <group name="priority-minor">
+        <method signature="homeTest.recipePreviewTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipePreviewTest" class="Tests.homeTest"/>
+      </group> <!-- priority-minor -->
+    </groups>
+    <test name="Default test" duration-ms="13159" started-at="2018-10-14T14:08:00Z" finished-at="2018-10-14T14:08:13Z">
+      <class name="Tests.homeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="setup" is-config="true" duration-ms="65517" started-at="2018-10-14T14:06:54Z" finished-at="2018-10-14T14:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="initializeApp()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="initializeApp" is-config="true" duration-ms="5" started-at="2018-10-14T14:08:00Z" finished-at="2018-10-14T14:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApp -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="beforeEachTest" is-config="true" duration-ms="3228" started-at="2018-10-14T14:08:00Z" finished-at="2018-10-14T14:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="recipeDetailsTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipeDetailsTest" duration-ms="2761" started-at="2018-10-14T14:08:03Z" finished-at="2018-10-14T14:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeDetailsTest -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="afterEachTest" is-config="true" duration-ms="204" started-at="2018-10-14T14:08:06Z" finished-at="2018-10-14T14:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="beforeEachTest" is-config="true" duration-ms="3289" started-at="2018-10-14T14:08:06Z" finished-at="2018-10-14T14:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="recipePreviewTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="recipePreviewTest" duration-ms="3423" started-at="2018-10-14T14:08:09Z" finished-at="2018-10-14T14:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipePreviewTest -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="afterEachTest" is-config="true" duration-ms="217" started-at="2018-10-14T14:08:13Z" finished-at="2018-10-14T14:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.homeTest@28ac3dc3]" name="teardown" is-config="true" duration-ms="137" started-at="2018-10-14T14:08:13Z" finished-at="2018-10-14T14:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.homeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
