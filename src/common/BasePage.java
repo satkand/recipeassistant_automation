@@ -15,11 +15,25 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 
 public class BasePage extends BaseTest {
-	
+
 	protected AppiumDriver driver = null;
 
 	public BasePage(AppiumDriver driver) {
-		this.driver=driver;
+		this.driver = driver;
+	}
+
+	public void launchApp() throws Exception {
+		// Launch the app
+		driver.launchApp();
+	}
+
+	public void closeApp() throws Exception {
+		try {
+			driver.closeApp();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
 	}
 
 	protected WebElement find(final By locator, int... args) {

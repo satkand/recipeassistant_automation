@@ -49,10 +49,10 @@ public class BaseTest {
 		capabilities.setCapability("appWaitActivity", "*");
 		capabilities.setCapability("udid", "9885e63843544b4d49");
 		capabilities.setCapability("platformVersion", "8.0.0");
-		this.driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);	
+		this.driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
 	}
 
-	//To start Appium server automatically for every run
+	// To start Appium server automatically for every run
 	private void startAppiumServer() throws IOException, InterruptedException {
 
 		System.out.println("Starting Appium Server ......");
@@ -65,10 +65,8 @@ public class BaseTest {
 		System.out.println("Appium Server Started !!");
 	}
 
-	/*
-	 * This method is to stop the Appium Server automatically,by stopping the
-	 * service that was started by startAppiumServer method
-	 */
+	/* This method is to stop the Appium Server automatically,by stopping the 
+	 * service that was started by startAppiumServer method */
 
 	private void stopAppiumServer() throws IOException {
 		try {
@@ -79,10 +77,9 @@ public class BaseTest {
 		}
 	}
 
-//	@BeforeMethod(alwaysRun = true)
-//	public void beforeEachTest() throws Exception {
-//
-//		driver.launchApp();
-//
-//	}
+	@AfterSuite(alwaysRun = true)
+	public void teardown() throws IOException {
+		driver.quit();
+	}
+
 }
