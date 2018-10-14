@@ -1,3 +1,7 @@
+/*Test Automation for Domain Technical test
+ * Author: Sat Kandhaswami
+ */
+
 package Tests;
 
 import org.testng.Assert;
@@ -5,9 +9,9 @@ import org.testng.annotations.Test;
 
 import Pages.App;
 
-
 public class homeTest extends App{
 
+//Test case to verify the app launch and home screen
 	
 	@Test
 	public void recipePreviewTest() {
@@ -17,6 +21,7 @@ public class homeTest extends App{
 		homePage.tapRecipeOne();
 	}
 	
+//Test case to verify opening the recipe details	
 	@Test
 	public void recipeDetailsTest() {
 		System.out.println("Details Test.......");

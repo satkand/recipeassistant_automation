@@ -15,6 +15,12 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 
 public class BasePage extends BaseTest {
+	
+	protected AppiumDriver driver = null;
+
+	public BasePage(AppiumDriver driver) {
+		this.driver=driver;
+	}
 
 	protected WebElement find(final By locator, int... args) {
 
@@ -31,8 +37,6 @@ public class BasePage extends BaseTest {
 			});
 			return webelement;
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			// e.printStackTrace();
 			return null;
 		}
 	}
